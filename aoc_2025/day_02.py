@@ -15,8 +15,6 @@ def is_repeated_pattern(num_str: str) -> bool:
     at least twice. Examples:
     11, 22, 123123, 1212121212, 1111111, etc.
     """
-    if num_str in ("111", "222222", "2121212121"):
-        pass
     str_length = len(num_str)
 
     # Try all possible unit lengths
