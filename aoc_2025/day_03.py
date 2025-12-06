@@ -37,7 +37,7 @@ def max_joltage_digits(bank: str, k=2) -> int:
 
 
 if __name__ == "__main__":
-    with open("data/sample_input_day03.txt") as f:
+    with open("data/input_day03.txt") as f:
         batteries = f.read().splitlines()
 
     res1 = 0
